@@ -9,6 +9,7 @@ import TeamTwo from './components/TeamTwo'
 import TeamThree from './components/TeamThree'
 import Pricing from './components/Pricing'
 import InstagramPosts from './components/InstagramPosts'
+import Contact from './components/Contact'
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
     <TeamThree />
     <Pricing />
     <InstagramPosts />
+    <Contact />
     </>
   )
 }

@@ -34,7 +34,7 @@ const InstagramPosts = () => {
           <img src={insta5} alt="Instagram 5" className="w-full h-full object-cover" />
         </div>
 
-        <div className="w-[860px] h-[28rem]">
+        <div className="w-[53.7rem] h-[28rem]">
           <img src={insta4} alt="Instagram 4" className="w-full h-full object-cover" />
         </div>
 
