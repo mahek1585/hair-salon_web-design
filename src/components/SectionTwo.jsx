@@ -22,7 +22,7 @@ const SectionTwo = () => {
           ready to rock on any occasion? We will make your dreams come true.
         </p>
 
-        {/* View More Button */}
+        {/*  Button */}
         <button
           className="text-white border border-white px-8 py-2 font-montserrat font-semibold text-[1rem] leading-[2.25rem] tracking-[0.12em] uppercase hover:bg-emerald-50 hover:text-black transition"
         >

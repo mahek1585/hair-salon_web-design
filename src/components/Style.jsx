@@ -10,14 +10,14 @@ const Style = () => {
       <img
         src={image1}
         alt="Image 1"
-        className="absolute top-0 left-[-3.75rem] w-[49.81rem] h-[38rem] object-cover object-[0_30%] z-10"
+        className="absolute top-0 left-[-3.75rem] w-[49.81rem] h-[38rem] object-cover object-[0_30%] z-10 clip-left-slash"
       />
 
       {/* Second Image */}
       <img
         src={image2}
         alt="Image 2"
-        className="absolute top-0 left-[47.93rem] w-[67.06rem] h-[37.5rem] object-cover z-20"
+        className="absolute top-0 left-[47.93rem] w-[67.06rem] h-[37.5rem] object-cover z-20 clip-right-slash"
       />
 
       {/* Center Box */}
@@ -35,3 +35,5 @@ const Style = () => {
 };
 
 export default Style;
+
+

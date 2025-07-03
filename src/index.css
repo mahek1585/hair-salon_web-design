@@ -10,3 +10,18 @@
 .font-cormorant{
    font-family: 'Cormorant', 'serif';
 }
+
+
+
+
+
+/* For Style.jsx */
+.clip-left-slash {
+  clip-path: polygon(0 0, 100% 0, 80% 100%, 0% 100%);
+}
+
+.clip-right-slash {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+

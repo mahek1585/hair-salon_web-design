@@ -1,6 +1,5 @@
 import React from "react";
 import heroImg from "../assets/Images/hero.jpg";
-import logo from "../assets/Images/logo.png";
 import { ChevronLeftIcon, ChevronRightIcon } from "@heroicons/react/24/outline";
 import { Link } from "react-scroll";
 
@@ -16,11 +15,15 @@ const Hero = () => {
       />
 
       
-      <img
-        src={logo}
-        alt="Logo"
-        className="absolute top-[2rem] left-16 w-[14.43rem] h-[2.5rem]"
-      />
+      <div className="absolute top-[2rem] left-16 text-white">
+        <span className="border-2 border-white py-1 px-2 font-montesrrat font-semibold text-[1.25rem] leading-9 tracking-[0.15em] uppercase">
+          The
+        </span>
+        <span className="ml-2 font-montesrrat font-semibold text-[1.25rem] leading-9 tracking-[0.15em] uppercase">
+          perfect cut
+        </span>
+      </div>
+      
 
       {/* Right Blur  */}
       <div

@@ -14,6 +14,7 @@ import InstagramPosts from './components/InstagramPosts';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
+
 const App = () => {
 
    useEffect(() => {
@@ -23,7 +24,6 @@ const App = () => {
   return (
     <>
       <Hero />
-
       <Element name="about">
         <SectionTwo />
         <OpeningHours />
@@ -43,6 +43,7 @@ const App = () => {
       </Element>
 
       <Footer />
+     
     </>
   );
 };
