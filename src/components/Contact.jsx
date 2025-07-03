@@ -97,7 +97,13 @@ const Contact = () => {
           <div className='mt-12'>
             <button
               type="submit"
-              className="bg-black text-white w-[14.6rem] py-5 px-10 font-semibold leading-[100%] tracking-[0.12em] uppercase hover:text-black hover:bg-white">
+              className="bg-black text-white 
+              w-[14.6rem] py-5 px-10 
+              font-semibold leading-[100%] t
+              racking-[0.12em] uppercase
+               hover:text-black hover:bg-emerald-50  
+               transition duration-300 ease-in-out cursor-pointer
+              ">
 
             
               Send Message

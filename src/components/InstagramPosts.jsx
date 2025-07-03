@@ -9,7 +9,7 @@ import insta5 from "../assets/Images/Follow Us.png";
 
 const InstagramPosts = () => {
   return (
-    <section className="w-[90rem] h-[68.75rem] mx-auto">
+    <section className="w-full h-[68.75rem] mx-auto ">
       {/* 1 Row */}
       <div className="flex flex-row gap-5 mt-[5.75rem] mx-[4.37rem]">
 

@@ -15,7 +15,7 @@ const OpeningHours = () => {
 
         {/* Button */}
         <div className="pl-[6.37rem]">
-          <button className="text-white bg-black py-[0.5rem] px-[2rem] font-montesrrat font-semibold text-[1rem] leading-[2.25rem] tracking-[0.12em] uppercase hover:bg-white hover:text-black transition">
+          <button className="text-white bg-black py-[0.5rem] px-[2rem] font-montesrrat font-semibold text-[1rem] leading-[2.25rem] tracking-[0.12em] uppercase hover:bg-emerald-50 hover:text-black transition">
             Book Now
           </button>
         </div>

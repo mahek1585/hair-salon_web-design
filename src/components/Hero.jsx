@@ -2,6 +2,8 @@ import React from "react";
 import heroImg from "../assets/Images/hero.jpg";
 import logo from "../assets/Images/logo.png";
 import { ChevronLeftIcon, ChevronRightIcon } from "@heroicons/react/24/outline";
+import { Link } from "react-scroll";
+
 
 const Hero = () => {
   return (
@@ -13,29 +15,34 @@ const Hero = () => {
         className="w-full h-full object-cover"
       />
 
-      {/* Logo */}
+      
       <img
         src={logo}
         alt="Logo"
         className="absolute top-[2rem] left-16 w-[14.43rem] h-[2.5rem]"
       />
 
-      {/* Right Blur Overlay */}
+      {/* Right Blur  */}
       <div
         className="absolute top-0 right-0 h-full w-[40.62rem] backdrop-blur-[35px]"
         style={{ backgroundColor: "#0B1518A6" }}
       >
-        {/* Navigation Links */}
+        {/* Links */}
         <div className="absolute top-[2rem] right-[4.37rem] flex gap-9 z-10">
-          {["About", "Pricing", "Contact"].map((item) => (
-            <a
-              key={item}
-              href={`#${item.toLowerCase()}`}
-              className="font-montesrrat font-medium text-[1rem] leading-[1rem] tracking-[0.15em] uppercase text-white hover:text-amber-300 transition duration-200"
-            >
-              {item}
-            </a>
-          ))}
+            {["about", "pricing", "contact"].map((item) => (
+                <Link
+                  key={item}
+                  to={item}
+                  smooth={true}
+                  duration={1200}
+                  offset={-50}
+                  spy={true}
+                  className="font-montesrrat font-medium text-[1rem] leading-[1rem] tracking-[0.15em] uppercase text-white hover:text-amber-300 transition duration-200 cursor-pointer"
+                >
+                  {item}
+                </Link>
+            ))}
+        
         </div>
 
         {/* Heading */}
@@ -66,12 +73,12 @@ const Hero = () => {
         </div>
 
         {/* Left Arrow Button */}
-        <div className="absolute top-[33.56rem] left-[5.87rem] w-14 h-14 bg-[#A5836ACC] flex items-center justify-center hover:bg-[#C19A5D]">
+        <div className="absolute top-[33.56rem] left-[5.87rem] w-14 h-14 bg-[#A5836ACC] flex items-center justify-center hover:bg-[#C19A5D] hover:cursor-pointer">
           <ChevronLeftIcon className="w-7 h-7 text-white" />
         </div>
 
         {/* Right Arrow Button */}
-        <div className="absolute top-[33.56rem] left-[9.75rem] w-14 h-14 bg-[#A5836ACC] flex items-center justify-center hover:bg-[#C19A5D]">
+        <div className="absolute top-[33.56rem] left-[9.75rem] w-14 h-14 bg-[#A5836ACC] flex items-center justify-center hover:bg-[#C19A5D] hover:cursor-pointer">
           <ChevronRightIcon className="w-7 h-7 text-white" />
         </div>
       </div>

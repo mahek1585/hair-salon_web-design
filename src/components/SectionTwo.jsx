@@ -1,7 +1,7 @@
 import React from "react";
 import image from "../assets/Images/image.png";
 
-const Section2 = () => {
+const SectionTwo = () => {
   return (
     <section className="relative w-full mx-auto h-[43.75rem] bg-black flex pl-[5.62rem]">
       {/* Left Content */}
@@ -24,7 +24,7 @@ const Section2 = () => {
 
         {/* View More Button */}
         <button
-          className="text-white border border-white px-8 py-2 font-montserrat font-semibold text-[1rem] leading-[2.25rem] tracking-[0.12em] uppercase hover:bg-white hover:text-black transition"
+          className="text-white border border-white px-8 py-2 font-montserrat font-semibold text-[1rem] leading-[2.25rem] tracking-[0.12em] uppercase hover:bg-emerald-50 hover:text-black transition"
         >
           View More
         </button>
@@ -42,4 +42,4 @@ const Section2 = () => {
   );
 };
 
-export default Section2;
+export default SectionTwo;
