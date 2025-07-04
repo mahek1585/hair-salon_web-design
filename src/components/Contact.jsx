@@ -77,7 +77,7 @@ const Contact = () => {
                 <button
                   type="button"
                   key={item}
-                  className="font-montesrrat font-medium leading-9 px-4 py-2 border border-black text-black hover:bg-black hover:text-white transition"
+                  className="font-montesrrat font-medium leading-9 px-4 py-2 border border-black text-black hover:bg-black hover:text-white transition hover:cursor-pointer"
                 >
                   {item}
                 </button>

@@ -25,7 +25,7 @@ const TeamOne = () => {
             We are well equipped with years of hair know-how, and ready to create your best look with natural products.
              Hair is our passion, and our passion shows on every client that walks out of our doors full of confidence.
         </p>
-        <button className="bg-black text-white w-[17.99rem] py-5 px-10 font-semibold leading-[100%] tracking-[0.12em] uppercase hover:text-black hover:bg-emerald-50">
+        <button className="bg-black text-white w-[17.99rem] py-5 px-10 font-semibold leading-[100%] tracking-[0.12em] uppercase hover:text-black hover:bg-emerald-50 hover:cursor-pointer">
             book appointment
         </button>
       </div>

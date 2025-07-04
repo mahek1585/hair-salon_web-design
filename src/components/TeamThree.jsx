@@ -25,7 +25,7 @@ const TeamThree = () => {
             Designed to maintain your current colour, blend out a growing root or balance your blonde while providing full
              and demi-permanent coverage. Our custom kit can disguise grey-white hair.
         </p>
-        <button className="bg-black text-white w-[17.99rem] py-5 px-10 font-semibold leading-[100%] tracking-[0.12em] uppercase hover:text-black hover:bg-emerald-50">
+        <button className="bg-black text-white w-[17.99rem] py-5 px-10 font-semibold leading-[100%] tracking-[0.12em] uppercase hover:text-black hover:bg-emerald-50 hover:cursor-pointer">
             book appointment
         </button>
       </div>

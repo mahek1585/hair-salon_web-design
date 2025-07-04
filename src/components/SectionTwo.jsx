@@ -24,7 +24,7 @@ const SectionTwo = () => {
 
         {/*  Button */}
         <button
-          className="text-white border border-white px-8 py-2 font-montserrat font-semibold text-[1rem] leading-[2.25rem] tracking-[0.12em] uppercase hover:bg-emerald-50 hover:text-black transition"
+          className="text-white border border-white px-8 py-2 font-montserrat font-semibold text-[1rem] leading-[2.25rem] tracking-[0.12em] uppercase hover:bg-emerald-50 hover:text-black transition hover:cursor-pointer"
         >
           View More
         </button>
